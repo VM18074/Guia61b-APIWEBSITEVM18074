@@ -2,7 +2,7 @@
 Carnet: VM18074
 #Grupo: 01*/
 
-var fila="<tr><td class='id' style='text-align:left;padding:.5em;border:1px solid #fff;background:#e5f1f4;'></td><td class='foto'></td><td class='price'></td><td class='title'></td><td class='description'></td><td class='category'></td></tr>";
+var fila="<tr><td class='id'></td><td class='foto'></td><td class='price'></td><td class='title'></td><td class='description'></td><td class='category'></td></tr>";
 	 var productos=null;
   function codigoCat(catstr) {
 	var code="null";
