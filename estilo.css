@@ -13,7 +13,7 @@ table {width:80%;margin:auto;}
 th#price {cursor:pointer;}
 li {color:blue;}
 /*si chequea muestra los productos sin cheque desaparecen los productos*/
-div#opciones input#c1:checked ~ table tbody tr.c1 { display: table-row;}
+input#c1:checked ~ table tbody tr.c1 { display: table-row;}
 input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
 input#c2:checked ~ table tbody tr.c2 { display: table-row; }
 input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
